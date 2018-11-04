@@ -5,6 +5,129 @@
  * Site Styles
  *****************************************************************************/
 
+html{
+    background:rgb(102, 255, 255)
+}
+h2{
+    color:blue;
+}
+
+/*aside styles*/
+aside#social{
+    background:rgb(255, 255, 255, .6);
+    padding:5px;
+    width: 200px;
+    height:auto;
+    position:fixed; 
+    top: 50px;
+    right: 20px;
+    cursor:pointer;
+    margin: 3px;
+}
+
+ul.social-links{
+    display:none;
+    list-style:none;
+}
+aside#social:hover ul.social-links{
+    display:block;
+    
+}
+
  html {
-     color: green;
+     margin:0;
+     padding:0;
  }
+
+/*header styles*/
+header{
+    height: 600px;
+    background: url(../img/monkaa_monkeyhang.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.title {
+     text-align:right; 
+     color: white;
+    font-family: helvetica, sans serif, serif;
+     padding-top: 250px;
+     padding-right: 250px;
+     font-style:italic;
+     font-size: 1000%;
+}
+.subtitle {
+    text-align:center; 
+    list-style: none;
+    padding-top: 40px;
+    padding-bottom:10px;
+    margin-top: 10px;
+    color: white;
+    font-family: helvetica, sans serif, serif;
+}
+
+nav ul li {
+    list-style:none;
+    display: inline;
+    border: solid 1px black;
+    padding: 7px;
+    background: rgb(255, 255, 255, .8)
+}
+
+nav ul li :hover {
+    background-color: turquoise;
+}
+ /*add styles to make navigation more professional*/
+.main-nav{
+    text-align:center;
+}
+
+/*section styles*/
+section{
+    padding-top: 50px;
+    padding-bottom:25px;
+    padding-left: 10px;
+    padding-right:10px;
+    margin-top:10px;
+}
+
+section#watch{
+    background: rgb(255, 255, 255, .6);
+}
+video{
+    width:500px;
+    height: auto;
+}
+
+section#about{
+    background: rgb(255, 255, 255, .6);
+}
+
+.weybec-people {
+    list-style:none;
+
+    }
+
+ul.weybec-people li {
+    display: inline-block;
+}
+
+.headshot{
+    width: 200px;
+    height:auto;
+    padding: 10px
+}
+.flex-container{
+    display: flex;
+    justify-content:center;
+}
+
+section#listen{
+    background: rgb(255, 255, 255, .6);
+}
+
+/*footer styles*/
+footer{
+    background:rgb(255, 255, 255, .6);
+    text-align:center;
+}
