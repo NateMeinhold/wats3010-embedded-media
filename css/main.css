@@ -71,11 +71,15 @@ nav ul li {
     display: inline;
     border: solid 1px black;
     padding: 7px;
-    background: rgb(255, 255, 255, .8)
+    background: rgb(102, 255, 255)
 }
 
 nav ul li :hover {
-    background-color: turquoise;
+    background-color: white;
+}
+nav ul li a:link{
+    color:blue;
+    text-decoration: none;
 }
  /*add styles to make navigation more professional*/
 .main-nav{
