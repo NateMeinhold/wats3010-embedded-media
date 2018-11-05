@@ -10,6 +10,7 @@ html{
 }
 h2{
     color:blue;
+    background:white;
 }
 
 /*aside styles*/
@@ -28,6 +29,10 @@ aside#social{
 ul.social-links{
     display:none;
     list-style:none;
+}
+ul.social-links a:link{
+     text-decoration: none;
+     color:white;
 }
 aside#social:hover ul.social-links{
     display:block;
@@ -65,7 +70,10 @@ header{
     color: white;
     font-family: helvetica, sans serif, serif;
 }
-
+#monkaa{
+    text-align:center;
+    font-size:170%;
+}
 nav ul li {
     list-style:none;
     display: inline;
@@ -81,7 +89,9 @@ nav ul li a:link{
     color:blue;
     text-decoration: none;
 }
- /*add styles to make navigation more professional*/
+nav ul li a:visited {
+    color: blue;
+}
 .main-nav{
     text-align:center;
 }
@@ -98,6 +108,15 @@ section{
 section#watch{
     background: rgb(255, 255, 255, .6);
 }
+.lead{
+    font-size:150%;
+    text-indent: 30pt;
+    background-color:white;
+}
+#watch a:link{
+    text-decoration: none;
+}
+
 video{
     width:500px;
     height: auto;
@@ -105,6 +124,10 @@ video{
 
 section#about{
     background: rgb(255, 255, 255, .6);
+    text-align:center;
+}
+#about a:link{
+    text-decoration: none;
 }
 
 .weybec-people {
@@ -124,14 +147,23 @@ ul.weybec-people li {
 .flex-container{
     display: flex;
     justify-content:center;
+    text-align:center;
+    color:blue;
 }
+
 
 section#listen{
     background: rgb(255, 255, 255, .6);
 }
 
 /*footer styles*/
+#info a:link{
+    text-decoration: none;
+}
 footer{
     background:rgb(255, 255, 255, .6);
     text-align:center;
 }
+footer a:link{
+     text-decoration: none;
+} 
